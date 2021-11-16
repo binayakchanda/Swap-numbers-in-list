@@ -1,3 +1,3 @@
 # Swap-numbers-in-list
 
-positon of the numbers are userdefine.
+input length, nos in list,positon of swaping are userdefine.
