@@ -1,0 +1,24 @@
+#swap two nos
+
+#swap function
+def swap(list,p1,p2):
+    list[p1],list[p2]=list[p2],list[p1]
+    return list
+
+#driver function
+li=[]
+print("Enter length of the list: ")
+n=int(input())
+
+print("Enter the elements: ")
+for i in range(0,n):
+    elements=int(input())
+    li.append(elements)
+print(li)
+
+print("SWAPING POSITION 1 n 2 : ")
+pos1=int(input())
+pos2=int(input())
+
+swap(li,pos1-1,pos2-1)
+print(li)
